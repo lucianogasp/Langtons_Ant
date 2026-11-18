@@ -1,0 +1,18 @@
+.square {
+  border: dotted 1px gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+}
+.square.untouch-square {
+  background-color: white;
+}
+.square.litup-square {
+  background-color: yellow;
+}
+.square.unlit-square {
+  background-color: lightgray;
+}
